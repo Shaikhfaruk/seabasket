@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&family=Montserrat+Alternates:wght@800&display=swap");
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 2rem;
+  margin: 0 2rem;
+  position: relative;
+}
+.hero--center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.center--top {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 117px;
+  color: #000000;
+  position: absolute;
+  top: 70px;
+  z-index: -1;
+}
+.center--bottom {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 144px;
+  line-height: 176px;
+  color: #000000;
+  position: absolute;
+  bottom: 70px;
+  text-shadow: 0px -7px 18px rgba(0, 0, 0, 0.25);
+}
+.hero--text {
+  color: #000000;
+  opacity: 0.6;
+  transform: rotate(-17.27deg);
+  font-family: "Love Ya Like A Sister", cursive;
+}
+.center--center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.hero--left,
+.hero--right {
+  position: absolute;
+}
+.hero--left {
+  left: 220px;
+}
+.hero--right {
+  right: 220px;
+}
+.hero--left--top {
+  position: relative;
+  top: -75px;
+  left: 75px;
+}
+.hero--left--top--text {
+  position: absolute;
+  top: -60px;
+  left: -200px;
+  opacity: 0.6;
+  transform: rotate(-17.27deg);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 80px;
+}
+.hero--left--center {
+  position: relative;
+  right: -80px;
+  top: -20px;
+}
+.hero--left--center--text {
+  position: absolute;
+  top: -25px;
+  left: -210px;
+  opacity: 0.6;
+  transform: rotate(-3.49deg);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 58px;
+  line-height: 72px;
+}
+.hero--left--bottom {
+  position: relative;
+  bottom: -70px;
+  right: 0px;
+}
+.hero--left--bottom--text {
+  position: absolute;
+  top: 70px;
+  left: -150px;
+  opacity: 0.6;
+  transform: rotate(5.72deg);
+  font-weight: 400;
+  font-size: 58px;
+  line-height: 72px;
+}
+.hero--right--top--text {
+  opacity: 0.6;
+  transform: rotate(20.33deg);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 80px;
+  position: absolute;
+  top: -75px;
+  right: -125px;
+}
+.hero--right--center--text {
+  opacity: 0.6;
+  transform: rotate(-5.49deg);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 60px;
+}
+.hero--right--bottom--text {
+  opacity: 0.6;
+  transform: rotate(6.42deg);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 58px;
+  line-height: 72px;
+  position: absolute;
+  bottom: -65px;
+  right: -80px;
+}
+.hero--right--top {
+  position: relative;
+  top: 0;
+  left: -35px;
+}
+.hero--right--center {
+  position: relative;
+  top: 20px;
+  left: -25px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.hero--right--center--text {
+  position: absolute;
+  top: 0;
+  right: -150px;
+  opacity: 0.6;
+  transform: rotate(-5.49deg);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 60px;
+}
+.hero--right--bottom {
+  position: relative;
+  top: 30px;
+  left: -60px;
+}
