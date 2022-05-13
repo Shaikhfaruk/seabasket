@@ -1,0 +1,66 @@
+.how--it--works {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0.5rem 1rem;
+  margin: 3rem 1rem;
+}
+.how--it--works--title {
+  font-family: "roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}
+.how--it-works--sub--title {
+  font-family: "roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #000000;
+  margin-top: 2rem;
+}
+.categories--container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  padding: 0 1rem;
+  margin: 5rem 0 1rem 0;
+}
+.categories--cards {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  padding: 0 1rem;
+  margin-top: 2rem;
+}
+.categories--heading {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  margin-top: 2rem;
+}
+.categories--card {
+  background: #ffffff;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 30px;
+  width: 310px;
+  height: 188px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  margin: 0.5rem;
+}

@@ -1,0 +1,91 @@
+.faqs--container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 0 2rem;
+  margin: 2rem 0 1rem 0;
+}
+.faqs--heading {
+  font-family: "roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+  margin: 2rem 0 3rem 0;
+}
+.accordion {
+  position: relative;
+  height: 130px;
+  background: #ffffff;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 30px;
+  border: 1px solid #e4edff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 1rem;
+  margin: 3rem 0;
+  max-width: 1200px;
+  width: 100%;
+}
+.faqs--content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 0 1rem;
+  margin: 0 0 1rem 0;
+}
+.accordion .label {
+  position: relative;
+  cursor: pointer;
+  font-family: "roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 33px;
+}
+.accordion .label::before {
+  content: "+";
+  color: black;
+  position: absolute;
+  top: 50%;
+  right: -5px;
+  font-size: 30px;
+  transform: translateY(-50%);
+}
+.accordion .panel {
+  position: relative;
+  background: white;
+  height: 0;
+  text-align: justify;
+  overflow: hidden;
+  transition: 0.5s;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.accordion.activeAccor {
+  height: 318px;
+  background: #ffffff;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 30px;
+}
+.accordion.activeAccor .panel {
+  height: 55px;
+  background: #f7f8fb;
+  border: 1px solid #e4edff;
+  border-radius: 0px 0px 6px 6px;
+  margin-top: 0.5em;
+}
+
+.accordion.activeAccor .label::before {
+  content: "-";
+  font-size: 30px;
+}

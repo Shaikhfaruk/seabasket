@@ -8,6 +8,10 @@ import rightTopArrow from "../../assets/rightTopArrow.png";
 import centerCenterArrow from "../../assets/centerCenterArrow.png";
 import rightBottomAroor from "../../assets/rightBottomAroor.png";
 import Navbar from "../navbar/Navbar";
+import HowItWorks from "../HowItWorks/HowItWorks";
+import Product from "../Product/Product";
+import Faqs from "../Faqs/Faqs";
+import HaveARead from "../HaveARead/HaveARead";
 
 const Home = () => {
   return (
@@ -62,6 +66,10 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <HowItWorks />
+      <Product />
+      <Faqs />
+      <HaveARead />
     </>
   );
 };
